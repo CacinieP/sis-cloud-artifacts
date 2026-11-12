@@ -23,7 +23,7 @@ def main():
                     "/kaggle/working/scripts/hop_search.py",
                     "/kaggle/working/sub_best.csv",
                     "/kaggle/working/art/targets_hop.txt",
-                    "12", "4", "101"],
+                    "12", "4", "202"],
                    capture_output=False, text=True)
     print(f"hop done at +{(time.time() - T0) / 3600:.2f}h", flush=True)
 
